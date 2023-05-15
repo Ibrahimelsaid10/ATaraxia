@@ -1,4 +1,6 @@
-﻿namespace ATaraxia.EF.Repositories;
+﻿using ATaraxia.Core.Models.TemplateType;
+
+namespace ATaraxia.EF.Repositories;
 
 public class TemplateRepository :BaseRepository<Template>,ITemplateRepository
 {
@@ -20,5 +22,9 @@ public class TemplateRepository :BaseRepository<Template>,ITemplateRepository
         return await query.ToListAsync();
     }
 
+    public async Task<IEnumerable<Template>> GetAllWithUsersAsync(TemplateType type)
+    {
+        return await _context.Set<Template>().ToList().Select(e => e.TemplateType.Equals(type)) ;
+    }
 
 }
