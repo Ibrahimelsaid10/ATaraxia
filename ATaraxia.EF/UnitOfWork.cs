@@ -16,7 +16,6 @@ namespace ATaraxia.EF
         private readonly ApplicationDbContext _context;
 
         public ITemplateRepository Templates { get; private set; }
-        public IUserLikeRepository Userlikes { get; private set; }
 
 
         public UnitOfWork(ApplicationDbContext context)
@@ -24,7 +23,6 @@ namespace ATaraxia.EF
             _context = context;
 
             Templates = new TemplateRepository(_context);
-            Userlikes = new UserLikeRepository(_context);
 
         }
         

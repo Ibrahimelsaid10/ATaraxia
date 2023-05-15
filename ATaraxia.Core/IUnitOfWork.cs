@@ -11,7 +11,6 @@ namespace ATaraxia.Core
     public interface IUnitOfWork : IDisposable
     {
        ITemplateRepository Templates { get; }
-       IUserLikeRepository Userlikes { get; }
 
 
         Task<int> CompleteAsync();

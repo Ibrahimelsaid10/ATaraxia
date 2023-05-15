@@ -25,7 +25,7 @@ namespace ATaraxiaApi.Controllers
         {
             
 
-                var Item = await _unitOfWork.Templates.GetByIdWithUserLikesAsync(id);
+                var Item = await _unitOfWork.Templates.GetByIdAsync(id);
 
 
                 if (Item == null)

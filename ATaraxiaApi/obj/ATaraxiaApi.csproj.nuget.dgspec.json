@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\final project\\ATaraxia.Api\\ATaraxiaApi\\ATaraxiaApi.csproj": {}
+    "D:\\a\\ATaraxia\\ATaraxiaApi\\ATaraxiaApi.csproj": {}
   },
   "projects": {
-    "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj": {
+    "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
         "projectName": "ATaraxia.Core",
-        "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "projectPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
         "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\obj\\",
+        "outputPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,14 +65,14 @@
         }
       }
     },
-    "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\ATaraxia.EF.csproj": {
+    "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\ATaraxia.EF.csproj",
+        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
         "projectName": "ATaraxia.EF",
-        "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\ATaraxia.EF.csproj",
+        "projectPath": "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
         "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\obj\\",
+        "outputPath": "D:\\a\\ATaraxia\\ATaraxia.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj": {
-                "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj"
+              "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
+                "projectPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj"
               }
             }
           }
@@ -99,19 +105,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -134,14 +150,14 @@
         }
       }
     },
-    "D:\\final project\\ATaraxia.Api\\ATaraxiaApi\\ATaraxiaApi.csproj": {
+    "D:\\a\\ATaraxia\\ATaraxiaApi\\ATaraxiaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\final project\\ATaraxia.Api\\ATaraxiaApi\\ATaraxiaApi.csproj",
+        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxiaApi\\ATaraxiaApi.csproj",
         "projectName": "ATaraxiaApi",
-        "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxiaApi\\ATaraxiaApi.csproj",
+        "projectPath": "D:\\a\\ATaraxia\\ATaraxiaApi\\ATaraxiaApi.csproj",
         "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\final project\\ATaraxia.Api\\ATaraxiaApi\\obj\\",
+        "outputPath": "D:\\a\\ATaraxia\\ATaraxiaApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,8 +174,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\ATaraxia.EF.csproj": {
-                "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.EF\\ATaraxia.EF.csproj"
+              "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {
+                "projectPath": "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj"
               }
             }
           }
@@ -174,11 +190,29 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.13, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

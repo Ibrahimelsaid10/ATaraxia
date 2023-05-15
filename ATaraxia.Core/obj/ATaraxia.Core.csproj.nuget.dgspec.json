@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj": {}
+    "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {}
   },
   "projects": {
-    "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj": {
+    "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
         "projectName": "ATaraxia.Core",
-        "projectPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "projectPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
         "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\final project\\ATaraxia.Api\\ATaraxia.Core\\obj\\",
+        "outputPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

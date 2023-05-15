@@ -8,7 +8,7 @@ public class Template
     public string? Picture { get; set; }
     public string? File { get; set; }
     public bool IsVideo { get; set; }
-    public List<UserLike>? UserLikes { get; set; }
+    public string? UserLikes { get; set; }
    
 }
 

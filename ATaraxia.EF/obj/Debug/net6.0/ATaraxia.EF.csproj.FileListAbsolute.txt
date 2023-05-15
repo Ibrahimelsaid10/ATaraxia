@@ -32,3 +32,20 @@ D:\final project\ATaraxia.Apiii\ATaraxia.EF\obj\Debug\net6.0\refint\ATaraxia.EF.
 D:\final project\ATaraxia.Apiii\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.pdb
 D:\final project\ATaraxia.Apiii\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.genruntimeconfig.cache
 D:\final project\ATaraxia.Apiii\ATaraxia.EF\obj\Debug\net6.0\ref\ATaraxia.EF.dll
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.csproj.AssemblyReference.cache
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.AssemblyInfoInputs.cache
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.AssemblyInfo.cs
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.csproj.CoreCompileInputs.cache
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.dll
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\refint\ATaraxia.EF.dll
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.pdb
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.EF.deps.json
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.EF.runtimeconfig.json
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.EF.dll
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.EF.pdb
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.Core.dll
+D:\a\ATaraxia\ATaraxia.EF\bin\Debug\net6.0\ATaraxia.Core.pdb
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.csproj.CopyComplete
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ATaraxia.EF.genruntimeconfig.cache
+D:\a\ATaraxia\ATaraxia.EF\obj\Debug\net6.0\ref\ATaraxia.EF.dll

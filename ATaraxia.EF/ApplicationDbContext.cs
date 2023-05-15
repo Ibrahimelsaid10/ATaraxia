@@ -1,4 +1,5 @@
 ﻿using ATaraxia.Core.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
@@ -9,18 +10,12 @@ using System.Threading.Tasks;
 
 namespace ATaraxia.EF
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
         }
-         public virtual DbSet<Template> Temblates { get; set; }
-        public virtual DbSet<UserLike> userLikes { get; set; }
-
-       
-
-
-
+        public virtual DbSet<Template> Temblates { get; set; }
     }
 }

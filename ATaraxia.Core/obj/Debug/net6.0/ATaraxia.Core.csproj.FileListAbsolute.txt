@@ -22,3 +22,15 @@ D:\final project\ATaraxia.Apiii\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.dll
 D:\final project\ATaraxia.Apiii\ATaraxia.Core\obj\Debug\net6.0\refint\ATaraxia.Core.dll
 D:\final project\ATaraxia.Apiii\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.pdb
 D:\final project\ATaraxia.Apiii\ATaraxia.Core\obj\Debug\net6.0\ref\ATaraxia.Core.dll
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.csproj.AssemblyReference.cache
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.AssemblyInfoInputs.cache
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.AssemblyInfo.cs
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.csproj.CoreCompileInputs.cache
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.dll
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\refint\ATaraxia.Core.dll
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ATaraxia.Core.pdb
+D:\a\ATaraxia\ATaraxia.Core\bin\Debug\net6.0\ATaraxia.Core.deps.json
+D:\a\ATaraxia\ATaraxia.Core\bin\Debug\net6.0\ATaraxia.Core.dll
+D:\a\ATaraxia\ATaraxia.Core\bin\Debug\net6.0\ATaraxia.Core.pdb
+D:\a\ATaraxia\ATaraxia.Core\obj\Debug\net6.0\ref\ATaraxia.Core.dll
