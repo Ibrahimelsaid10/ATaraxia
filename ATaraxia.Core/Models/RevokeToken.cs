@@ -1,8 +1,7 @@
-﻿namespace ATaraxia.Core.Models
-{
-    public class RevokeToken
-    {
-        public string? Token { get; set; }
+﻿namespace ATaraxia.Core.Models;
 
-    }
+public class RevokeToken
+{
+    public string? Token { get; set; }
+
 }

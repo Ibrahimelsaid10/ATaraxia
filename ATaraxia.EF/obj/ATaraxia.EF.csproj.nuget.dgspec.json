@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {}
+    "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {}
   },
   "projects": {
-    "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
+    "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "projectUniqueName": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
         "projectName": "ATaraxia.Core",
-        "projectPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
-        "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\obj\\",
+        "projectPath": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj",
+        "packagesPath": "C:\\Users\\Khatab\\.nuget\\packages\\",
+        "outputPath": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khatab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,17 +70,21 @@
         }
       }
     },
-    "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {
+    "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
+        "projectUniqueName": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
         "projectName": "ATaraxia.EF",
-        "projectPath": "D:\\a\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
-        "packagesPath": "C:\\Users\\Asus Tuf\\.nuget\\packages\\",
-        "outputPath": "D:\\a\\ATaraxia\\ATaraxia.EF\\obj\\",
+        "projectPath": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.EF\\ATaraxia.EF.csproj",
+        "packagesPath": "C:\\Users\\Khatab\\.nuget\\packages\\",
+        "outputPath": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.EF\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus Tuf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Khatab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,14 +92,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
-                "projectPath": "D:\\a\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj"
+              "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj": {
+                "projectPath": "E:\\ebrahimelsaid\\ATaraxia\\ATaraxia.Core\\ATaraxia.Core.csproj"
               }
             }
           }

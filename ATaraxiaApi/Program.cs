@@ -1,15 +1,3 @@
-using ATaraxia.Core;
-using ATaraxia.Core.Configration;
-using ATaraxia.Core.Models;
-using ATaraxia.Core.Repositories;
-using ATaraxia.EF;
-using ATaraxia.EF.Repositories;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

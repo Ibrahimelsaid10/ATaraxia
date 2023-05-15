@@ -1,18 +1,9 @@
-﻿using ATaraxia.Core.Models;
-using ATaraxia.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace ATaraxia.Core;
 
-namespace ATaraxia.Core
+public interface IUnitOfWork : IDisposable
 {
-    public interface IUnitOfWork : IDisposable
-    {
-       ITemplateRepository Templates { get; }
+   ITemplateRepository Templates { get; }
 
 
-        Task<int> CompleteAsync();
-    }
+    Task<int> CompleteAsync();
 }

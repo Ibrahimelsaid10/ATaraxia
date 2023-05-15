@@ -1,8 +1,4 @@
-﻿using ATaraxia.Core.Repositories;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
-
-namespace ATaraxia.EF.Repositories;
+﻿namespace ATaraxia.EF.Repositories;
 
 public class BaseRepository<T> : IBaseRepository<T> where T : class
 {

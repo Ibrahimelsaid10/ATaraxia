@@ -1,12 +1,4 @@
-﻿using ATaraxia.Core;
-using ATaraxia.Core.Models;
-using ATaraxia.Core.Repositories;
-using ATaraxia.EF;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
-namespace ATaraxiaApi.Controllers
+﻿namespace ATaraxiaApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
